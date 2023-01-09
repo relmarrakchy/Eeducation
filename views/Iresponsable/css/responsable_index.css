@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+#king {
+    width: 100%;
+    height: 653px;
+}
+
+.prince1 {
+    width: 100%;
+    height: 7%;
+    background-image: linear-gradient(to right, #24C6DC 0%, #514A9D  51%, #24C6DC  100%);
+}
+
+.userDiv {
+    width: 100%;
+    height: 100%;
+}
+
+.userDiv li {
+    position: relative;
+    right: 2%;
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+    list-style: none;
+    float: right;
+}
+
+.userDiv span {
+    position: relative;
+    bottom: 5px;
+}
+
+.userIcon {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.prince2 {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f3ff;
+    display: flex;
+}
+
+.sidebarDiv {
+    width: 20%;
+    height: 100%;
+}
+
+.sidebar {
+    position: relative;
+    top: 2.5%;
+    left: 9%;
+    width: 90%;
+    height: 95%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+    width: 100%;
+    height: 15%;
+}
+
+.logo img {
+    width: 73%;
+    height: 100%;
+    position: relative;
+    bottom: 0%;
+    left: 12%;
+}
+
+.active {
+    border-left: 2px solid rgb(85, 85, 255);
+}
+
+.navList {
+    width: 100%;
+    height: 50px;
+}
+
+.navIcon {
+    position: relative;
+    right: 5.5%;
+    color: #494cff;
+}
+
+.navList span {
+    position: relative;
+    top : 20%;
+    left: 20%;
+    font-size: 16px;
+    font-weight: 530;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navList span a {
+    color: #494cff;
+    text-decoration: none;
+}
+
+.navList:hover {
+    background-color: rgb(231, 233, 255);
+}
+
+.contentDiv {
+    width: 80%;
+    height: 100%;
+}
+
+.content {
+    position: relative;
+    top: 2.5%;
+    left: 1%;
+    width: 98%;
+    height: 95%;
+}
+
+.blocksDiv {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.blocks {
+    width: 23%;
+    height: 95%;
+    background-color: white;
+    background-image: linear-gradient(to right, rgb(66, 148, 255) , rgb(93, 81, 255));
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin-left: 1.4%;
+    display: flex;
+}
+
+.infoDiv {
+    width: 60%;
+    height: 100%;
+}
+
+.info {
+    position: relative;
+    top: 25%;
+}
+
+.num {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.title {
+    color: white;
+    font-size: 14px;
+}
+
+.iconDiv {
+    width: 40%;
+    height: 100%;
+}
+
+.block-icon {
+    position: relative;
+    top: 35%;
+    left: 30%;
+    color: white;
+    font-size: 30px;
+}
+
+.graphsDiv {
+    width: 100%;
+    height: 60.6%;
+}
+
+.graph1Div {
+    width: 100%;
+    height: 100%;
+}
+
+.graph1 {
+    position: relative;
+    top: 1.5%;
+    left: 2%;
+    width: 95%;
+    height: 95%;
+    background-color: white;
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.graph2Div {
+    width: 30%;
+    height: 100%;
+}
+
+.graph2 {
+    position: relative;
+    top: 1.5%;
+    left: 6.5%;
+    width: 85%;
+    height: 95%;
+    background-color: white;
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}

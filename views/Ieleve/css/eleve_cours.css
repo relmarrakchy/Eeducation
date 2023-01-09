@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+#king {
+    width: 100%;
+    height: 653px;
+}
+
+.prince1 {
+    width: 100%;
+    height: 7%;
+    background-color: rgb(87, 87, 255);
+}
+
+.userDiv {
+    width: 100%;
+    height: 100%;
+}
+
+.userDiv li {
+    position: relative;
+    right: 2%;
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+    list-style: none;
+    float: right;
+}
+
+.userDiv span {
+    position: relative;
+    bottom: 5px;
+}
+
+.userIcon {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.prince2 {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f3ff;
+    display: flex;
+}
+
+.sidebarDiv {
+    width: 20%;
+    height: 100%;
+}
+
+.sidebar {
+    position: relative;
+    top: 2.5%;
+    left: 9%;
+    width: 90%;
+    height: 95%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+    width: 100%;
+    height: 15%;
+}
+
+.logo img {
+    width: 73%;
+    height: 100%;
+    position: relative;
+    bottom: 0%;
+    left: 12%;
+}
+
+.active {
+    border-left: 2px solid rgb(85, 85, 255);
+    background-color: #f0f3ff;
+}
+
+.navList {
+    width: 100%;
+    height: 50px;
+}
+
+.navIcon {
+    position: relative;
+    right: 5.5%;
+    color: #494cff;
+}
+
+.navList span {
+    position: relative;
+    top : 20%;
+    left: 20%;
+    font-size: 16px;
+    font-weight: 530;
+    font-family: 'Rubik', sans-serif;
+}
+
+.head {
+    width: 100%;
+    height: 10%;
+}
+
+.headContent {
+    width: 95%;
+    height: 95%;
+    position: relative;
+    top: 30%;
+    left: 3%;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    color: #494cff;
+    font-weight: 600;
+}
+
+.navList span a {
+    color: #494cff;
+    text-decoration: none;
+}
+
+.navList:hover {
+    background-color: rgb(231, 233, 255);
+}
+
+.contentDiv {
+    width: 80%;
+    height: 100%;
+}
+
+.annonceDiv {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: 95%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+    display: flex;
+}
+
+.navMatieres {
+    width: 25%;
+    height: 100%;
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.navMatieres .navList:hover {
+    background-color: white;
+    border-left: 2px solid rgb(85, 85, 255);
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+}
+
+.coursDiv {
+    width: 85%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.coursDiv::-webkit-scrollbar {
+    display: none;
+}
+
+.cours {
+    margin-top: 15px;
+    position: relative;
+    left: 4.5%;
+    width: 90%;
+    height: 15%;
+    border-radius: 10px;
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+}
+
+.heart {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.timeDiv {
+    width: 100%;
+    height: 50%;
+}
+
+.time {
+    font-size: 12px;
+    position: relative;
+    left: 80%;
+    top: 25%;
+    color: #7b7dfd;
+}
+
+.coursTitre, .coursLink {
+    width: 50%;
+    height: 100%;
+}
+
+.coursTitre div {
+    position: relative;
+    margin-top: 10px;
+    left: 6%;
+    color: #494cff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.coursLink div {
+    position: relative;
+    left: 6%;
+    margin-top: 10px;
+}
+
+.coursLink button {
+    background-color: transparent;
+    border: none;
+    left: -4px;
+    font-size: 16;
+    color: #494cff;
+}
+
+.coursLink button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.head {
+    width: 100%;
+    height: 10%;
+}
+
+.headContent {
+    width: 95%;
+    height: 95%;
+    position: relative;
+    top: 30%;
+    left: 3%;
+    font-size: 18px;
+    color: #494cff;
+    font-weight: 500;
+}

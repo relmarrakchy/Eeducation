@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+#king {
+    width: 100%;
+    height: 653px;
+    background-image: url(../../../resources/image\ \(1\).jpg);
+}
+
+.prince1 {
+    width: 100%;
+    height: 7%;
+    background-color: rgb(87, 87, 255);
+}
+
+.userDiv {
+    width: 100%;
+    height: 100%;
+}
+
+.userDiv li {
+    position: relative;
+    right: 2%;
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+    list-style: none;
+    float: right;
+}
+
+.userDiv span {
+    position: relative;
+    bottom: 5px;
+}
+
+.userIcon {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.prince2 {
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    background-color: #f0f3ff;
+    display: block;
+   
+
+}
+.infoTest{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    margin-bottom: 10px;
+}
+.infoSup{
+    width: 30%;
+    text-align: left;
+    font-size: 13px;
+    margin-top: 18px;
+}
+.bb{
+    font-family:    'Rubik', sans-serif ;
+    font-size: 10px;
+    margin-left: 18px;
+    margin-top: 3px;
+    font-weight: 480;
+}
+.bb label{
+    font-family:    'Rubik', sans-serif ;
+
+}
+.infoTest h2{
+    font-family: 'Rubik', sans-serif;
+
+
+}
+.infoTest1{
+    margin-left: 50px;
+    margin-top: 15px;
+
+    
+}
+.infoTest1 h2{
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 520;
+    text-decoration: underline;
+}
+.infoTest1 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+.testBoth{
+    width: 85%;
+    margin: auto;
+    height: 500px;
+    display: block;
+    overflow-y: scroll;
+}
+.testBoth1{
+    width: 98%;
+    margin: auto;
+    height: 240px;
+    display: flex;
+
+}
+.qst{
+    width: 48%;
+    height: 92%;
+    margin: auto auto;
+    background: white;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+
+}
+.qst h3, p{
+    font-family: 'Rubik', sans-serif;
+    padding-left: 5px;
+    padding-top: 8px;
+}
+.qst h3{
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.qst p{
+    font-size: 13px;
+    height: 135px;
+    
+
+}
+.qst textarea{
+    border-radius: 9px;
+    border: 0.5px solid #dadada;
+    background-color: #f2f2f2;
+    padding-left: 5px;
+    width: 95%;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.qst input{
+    border-radius: 9px;
+    border: 0.5px solid #dadada;
+    background-color: #f2f2f2;
+    width: 220px;
+    height: 25px;
+    
+}
+.valide{
+    width: 85%;
+    margin: auto;
+    height: 30px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.verifie{
+    display: flex;
+}
+.verifie input{
+    margin-top: 8.1px;
+    margin-left: 7px;
+}
+.validerbtn{
+    
+    width: 160px;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    padding: 5px 50px;
+    font-weight: 500;
+    background-color: rgb(93, 81, 255);
+    color: white;
+    border-radius: 4px;
+    /* box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08); */
+     border: 0.1px solid #24C6DC;
+    position: relative;
+    left: 360px;
+    cursor: pointer;
+}
+.verifie p{
+    font-size: 11.5px;
+}
+.sidebarDiv {
+    width: 20%;
+    height: 100%;
+}
+
+.sidebar {
+    position: relative;
+    top: 2.5%;
+    left: 9%;
+    width: 90%;
+    height: 95%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+    width: 100%;
+    height: 12%;
+}
+
+.logo img {
+    position: relative;
+    bottom: 10%;
+    left: 7%;
+}
+
+.active {
+    border-left: 2px solid rgb(85, 85, 255);
+    background-color: #f0f3ff;
+}
+
+.navList {
+    width: 100%;
+    height: 50px;
+}
+
+.navIcon {
+    position: relative;
+    right: 5.5%;
+    color: #494cff;
+}
+
+.navList span {
+    position: relative;
+    top : 20%;
+    left: 20%;
+    font-size: 16px;
+    font-weight: 530;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navList span a {
+    color: #494cff;
+    text-decoration: none;
+}
+
+.navList:hover {
+    background-color: rgb(231, 233, 255);
+}
+
+.contentDiv {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.contentDiv::-webkit-scrollbar {
+    display: none;
+}
+
+.timer {
+    position: relative;
+    width: 100%;
+}
+
+.timer span {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    left: 46%;
+    top: 23%;
+}
+
+.annonceDiv {
+    position: relative;
+    top: 0.5%;
+    left: 2.5%;
+    width: 95%;
+    height: 95%;
+    background-color: transparent;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.annonceDiv::-webkit-scrollbar {
+    display: none;
+}
+
+.questionDiv {
+    background-color: white;
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.questionAnnDiv {
+    width: 100%;
+    height: 70%;
+}
+
+.questionAnn {
+    position: relative;
+    line-height: 26px;
+    top: 8%;
+    left: 2%;
+    width: 95%;
+    height: 80%;
+}
+
+.num {
+    position: relative;
+    margin: 0 15px;
+    padding: 5px 11px;
+    border-radius: 100%;
+    background-color: #b5b6ff;
+}
+
+.ansDiv {
+    position: relative;
+    top: 19%;
+    width: 100%;
+    height: 40%;
+}
+
+.inp {
+    position: relative;
+    left: 5%;
+    top: 20%;
+    border: 1px solid #cccccc;
+    background-color: #f2f2f2;
+    height: 30px;
+    padding-left: 10px;
+    width: 400px;
+}
+
+.inp:focus {
+    border: 1px solid rgb(87, 87, 255);
+    outline: none;
+}
+
+.finishDiv {
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+}
+
+.finishDiv input {
+    width: 90%;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    padding: 7px 3px;
+    background-color: rgb(93, 81, 255);
+    color: white;
+    border-radius: 5px;
+    border: 0.1px solid #24C6DC;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 5px;
+    left: 4.5%;
+    cursor: pointer;
+}
+
+  .btn1 {background-image: linear-gradient(to right, #24C6DC 0%, #514A9D  51%, #24C6DC  100%)}
+.btn1 {
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;
+   box-shadow: 0 0 20px #eee;
+   border: none;
+ }
+
+ .btn1:hover {
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+ }
+
+textarea {
+    resize: none;
+}
